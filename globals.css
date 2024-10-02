@@ -1,0 +1,95 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+div{
+
+  background-image: -webkit-linear-gradient(180deg, rgb(112, 58, 112), black);
+}
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(120, 120, 120, 0.133);
+  border: 2px solid rgba(55, 55, 55, 0.133);
+  box-shadow: 2px 2px 5px rgba(40, 35, 40, 0.68);
+}
+
+.childContainer {
+  width: fit-content;
+  height: 320px;
+  margin: 40px;
+  font-size: 50px;
+  font-weight: 900;
+  
+}
+
+
+.pinkColor {
+  color: rgb(131, 56, 96);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #928d8d96;
+  box-shadow: 3px 3px 6px rgb(69, 69, 69);
+  gap: 500px;
+}
+
+.header li{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+
+.header .active{
+  color: white;
+}
+
+.header li:hover{
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+.footer{
+  background-color: black;
+  height: 80px;
+  margin-top: 450px;
+}
+
+h1 , p{
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+#abt{
+  color: white;
+  font-size: 60px;
+  margin-top:600px;
+}
+
+
+#cnt{
+  color: white;
+  font-size: 60px;
+  margin-top:600px;
+}
+
+
+#hme{
+  color: white;
+  font-size: 60px;
+  margin-top:600px;
+}
